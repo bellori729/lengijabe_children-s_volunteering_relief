@@ -3,7 +3,7 @@ const PREFIX = "/";
 const route = {
   default: PREFIX,
 
-  home: PREFIX + "home",
+  home: PREFIX,
 
   notFound: PREFIX + "*",
 };
