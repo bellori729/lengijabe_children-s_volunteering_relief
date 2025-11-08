@@ -4,7 +4,7 @@ const BasicTemplate = ({ className, style, children }) => {
   return (
     <div
       className={classNameMerge([
-        "w-full min-h-screen mt-[60px]",
+        "w-full min-h-screen mt-2.5",
         "flex flex-col items-center relative",
         className,
       ])}
