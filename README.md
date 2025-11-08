@@ -1,26 +1,5 @@
-# Logs
+# LENGIJABE CHILDREN'S VOLUNTEERING RELIEF (LECHIVORE)
 
-logs
-_.log
-npm-debug.log_
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-\*.local
-
-# Editor directories and files
-
-.vscode/_
-!.vscode/extensions.json
-.idea
-.DS_Store
-_.suo
-_.ntvs_
-_.njsproj
-_.sln
-\*.sw?
+- Targeting: The orphans, underprivileged, street children
+- To provide care, education, parenting, grooming positive character, vision, habits, orientation, inspiration, and appropriate moral - values, culture, and progressive norms in modern life in society.
+- Vindicating multi-value efforts to coax material welfare.
