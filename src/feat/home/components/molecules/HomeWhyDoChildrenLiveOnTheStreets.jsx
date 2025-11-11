@@ -1,13 +1,13 @@
-import { mediumTextBold } from "../../../../shared/constants/fontStyle";
 import classNameMerge from "../../../../utils/classNameMerge";
+import HomeContentsTitle from "../atoms/HomeContentsTitle";
 import HomeContentsContainer from "../organisms/HomeContentsContainer";
 
 const HomeWhyDoChildrenLiveOnTheStreets = () => {
   return (
     <HomeContentsContainer>
-      <h3 className={classNameMerge([mediumTextBold, "mt-[20px] leading-4"])}>
+      <HomeContentsTitle>
         Why do Children live on the streets?
-      </h3>
+      </HomeContentsTitle>
       <p>
         Poverty is the main factor that drives children to the streets in reach
         of a better life.
