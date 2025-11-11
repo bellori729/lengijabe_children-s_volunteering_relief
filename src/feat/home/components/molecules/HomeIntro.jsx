@@ -5,10 +5,10 @@ import HomeContentsContainer from "../organisms/HomeContentsContainer";
 const HomeIntro = () => {
   return (
     <HomeContentsContainer>
-      <h3 className={classNameMerge([mediumTextBold])}>
+      <h3 className={classNameMerge([mediumTextBold, "mt-[20px]"])}>
         Lengijabe Children's Volunteering Relief
       </h3>
-      <ul className={classNameMerge(["list-disc list-inside"])}>
+      <ul className={classNameMerge(["list-disc list-outside pl-[15px]"])}>
         <li>Targeting: The orphans, underprivileged, street children</li>
         <li>
           To provide care, education, parenting, grooming positive character,
