@@ -4,6 +4,11 @@ import HomeForeword from "../molecules/HomeForeword";
 import HomeIntro from "../molecules/HomeIntro";
 import HomeTitle from "../molecules/HomeTitle";
 import HomeWhyDoChildrenLiveOnTheStreets from "../molecules/HomeWhyDoChildrenLiveOnTheStreets";
+import HomeStreetLife from "../molecules/HomeStreetLife";
+import HomeVision from "../molecules/HomeVision";
+import HomeMissionStatement from "../molecules/HomeMissionStatement";
+import HomeAimsAndObjectives from "../molecules/HomeAimsAndObjectives";
+import HomeTheOrganizationsMainGoals from "../molecules/HomeTheOrganizationsMainGoals";
 
 const HomeLayout = () => {
   return (
@@ -12,6 +17,11 @@ const HomeLayout = () => {
       <HomeIntro />
       <HomeForeword />
       <HomeWhyDoChildrenLiveOnTheStreets />
+      <HomeStreetLife />
+      <HomeVision />
+      <HomeMissionStatement />
+      <HomeAimsAndObjectives />
+      <HomeTheOrganizationsMainGoals />
     </BasicTemplate>
   );
 };
