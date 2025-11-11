@@ -40,7 +40,8 @@ const HomeForeword = () => {
       <p>
         The Lengijabe Children’s Volunteering Relief aims at addressing the
         urgent needs of all children who have fallen victim and acquired the
-        pathetic status of orphans, street
+        pathetic status of orphans, street children, impairment, underprivileged
+        and other vulnerabilities.
       </p>
     </div>
   );
