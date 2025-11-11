@@ -1,9 +1,10 @@
 import { mediumTextBold } from "../../../../shared/constants/fontStyle";
 import classNameMerge from "../../../../utils/classNameMerge";
+import HomeContentsContainer from "../organisms/HomeContentsContainer";
 
 const HomeIntro = () => {
   return (
-    <div className={classNameMerge(["w-full px-[30px]", "flex flex-col"])}>
+    <HomeContentsContainer>
       <h3 className={classNameMerge([mediumTextBold])}>
         Lengijabe Children's Volunteering Relief
       </h3>
@@ -16,7 +17,7 @@ const HomeIntro = () => {
         </li>
         <li>Vindicating multi-value efforts to coax material welfare.</li>
       </ul>
-    </div>
+    </HomeContentsContainer>
   );
 };
 

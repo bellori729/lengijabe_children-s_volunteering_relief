@@ -1,15 +1,11 @@
 import classNameMerge from "../../../../utils/classNameMerge";
 import IMG_SRC_MAPPING from "../../../../shared/constants/imgSrcMapping";
 import { largeTextBold } from "../../../../shared/constants/fontStyle";
+import HomeContentsContainer from "../organisms/HomeContentsContainer";
 
 const HomeTitle = () => {
   return (
-    <div
-      className={classNameMerge([
-        "w-full mb-[10px]",
-        "flex flex-col items-center",
-      ])}
-    >
+    <HomeContentsContainer className={"mb-[10px], items-center"}>
       <img
         className={classNameMerge(["w-[35%] h-[35%]", "mt-[15px]"])}
         src={IMG_SRC_MAPPING.logo_vector}
@@ -22,7 +18,7 @@ const HomeTitle = () => {
         <br />
         (LECHIVORE)
       </h1>
-    </div>
+    </HomeContentsContainer>
   );
 };
 
