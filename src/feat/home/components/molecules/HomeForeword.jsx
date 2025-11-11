@@ -5,7 +5,7 @@ import HomeContentsContainer from "../organisms/HomeContentsContainer";
 const HomeForeword = () => {
   return (
     <HomeContentsContainer className={"gap-[10px]"}>
-      <h2 className={classNameMerge([mediumTextBold, "text-center"])}>
+      <h2 className={classNameMerge([mediumTextBold, "my-[10px] text-center"])}>
         FOREWORD
       </h2>
       <p>
