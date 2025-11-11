@@ -3,6 +3,7 @@ import classNameMerge from "../../../../utils/classNameMerge";
 import HomeForeword from "../molecules/HomeForeword";
 import HomeIntro from "../molecules/HomeIntro";
 import HomeTitle from "../molecules/HomeTitle";
+import HomeWhyDoChildrenLiveOnTheStreets from "../molecules/HomeWhyDoChildrenLiveOnTheStreets";
 
 const HomeLayout = () => {
   return (
@@ -10,6 +11,7 @@ const HomeLayout = () => {
       <HomeTitle />
       <HomeIntro />
       <HomeForeword />
+      <HomeWhyDoChildrenLiveOnTheStreets />
     </BasicTemplate>
   );
 };
