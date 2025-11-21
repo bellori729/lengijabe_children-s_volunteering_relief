@@ -1,3 +1,4 @@
+import { mediumTextRegular } from "../../../../shared/constants/fontStyle";
 import classNameMerge from "../../../../utils/classNameMerge";
 import HomeContentsTitle from "../atoms/HomeContentsTitle";
 import HomeContentsContainer from "../organisms/HomeContentsContainer";
@@ -45,6 +46,53 @@ const HomeTheOrganizationsMainGoals = () => {
           opportunities to education and training.
         </li>
       </ul>
+
+      <section className="my-[20px]">
+        <ul
+          className={classNameMerge([
+            "flex flex-col gap-[30px]",
+            "overflow-x-auto",
+          ])}
+        >
+          <li>
+            <figure className="flex flex-col items-center">
+              <img
+                className="w-[95%]"
+                src="/assets/images/children_of_lengijabe_organisation.png"
+                alt="Children from the Lengijabe organisation smiling in front of a classroom."
+                loading="lazy"
+              />
+              <figcaption
+                className={classNameMerge([
+                  mediumTextRegular,
+                  "italic mt-[5px]",
+                ])}
+              >
+                Children of Lengijabe Organisation
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure className="flex flex-col items-center">
+              <img
+                className="w-[95%]"
+                src="/assets/images/a_group_of_volunteers_from_netherland.png"
+                alt="A group of volunteers from the Netherlands posing on the steps."
+                loading="lazy"
+              />
+              <figcaption
+                className={classNameMerge([
+                  mediumTextRegular,
+                  "italic mt-[5px]",
+                ])}
+              >
+                A group of volunteers from the Netherlands
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
     </HomeContentsContainer>
   );
 };
