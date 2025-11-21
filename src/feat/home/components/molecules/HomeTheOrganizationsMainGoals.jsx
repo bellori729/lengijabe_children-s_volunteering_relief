@@ -47,7 +47,7 @@ const HomeTheOrganizationsMainGoals = () => {
         </li>
       </ul>
 
-      <section className="my-[20px]">
+      <section className="mt-[20px]">
         <ul
           className={classNameMerge([
             "flex flex-col gap-[30px]",
