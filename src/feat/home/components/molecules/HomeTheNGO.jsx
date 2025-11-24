@@ -85,6 +85,28 @@ const HomeTheNGO = () => {
           </li>
         </ul>
       </section>
+
+      <section className="flex flex-col">
+        <p>
+          The responsibility to find Home stay accommodation and meals at
+          minimum costs, rests upon the NGO- Lengijabe Children’s Volunteering
+          Relief to enable visitors scoop maximum leisure in the
+          wonder-tourist-destinations of Tanzania, such as those provided by
+          Katavi – where the visitor will plunge into endless excitement and joy
+          at the sight of:-
+        </p>
+        <ul className={classNameMerge(["list-disc list-outside", "pl-[15px]"])}>
+          <li>White giraffes prancing with pride.</li>
+          <li>Chanting swarms of birds – 400 species</li>
+          <li>Elegant zebras</li>
+          <li>Water bucks</li>
+          <li>
+            Spotted hyenas and leopards infusing in the visitor’s mind
+            unforgettable memories of Tanzania’s tourist culture of hospitality
+            and fraternization.
+          </li>
+        </ul>
+      </section>
     </HomeContentsContainer>
   );
 };
