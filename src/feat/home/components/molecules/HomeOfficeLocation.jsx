@@ -1,15 +1,16 @@
 import classNameMerge from "../../../../utils/classNameMerge";
+import HomeContentsTitle from "../atoms/HomeContentsTitle";
 import HomeContentsContainer from "../organisms/HomeContentsContainer";
 
 const HomeOfficeLocation = () => {
   return (
     <HomeContentsContainer>
       <section className={"flex flex-col gap-[20px] my-[20px]"}>
-        <p className={classNameMerge(["font-bold"])}>
+        <HomeContentsTitle className={classNameMerge(["font-bold"])}>
           Office - location: Kisongo - Waya,
           <br />
           Arusha - Dodoma road, 22 kms from Arusha City
-        </p>
+        </HomeContentsTitle>
 
         <div className="flex flex-col items-center">
           <img
