@@ -10,7 +10,7 @@ const HomeTheNGO = () => {
         THE NGO- LENGIJABE CHILDREN'S VOLUNTEERING RELIEF'S ROLE AS A
         MULTILINKAGES ENTITY
       </HomeContentsTitle>
-      <section className="flex flex-col gap-[20px]">
+      <section className={"flex flex-col gap-[20px]"}>
         <p>
           The NGO has extended functional roles to create advantages and tourist
           values and girdle the Tanzania society towards material progress: A
@@ -39,7 +39,7 @@ const HomeTheNGO = () => {
         </p>
       </section>
 
-      <section className="my-[20px]">
+      <section className={"my-[20px]"}>
         <ul
           className={classNameMerge([
             "flex flex-col gap-[30px]",
@@ -86,7 +86,7 @@ const HomeTheNGO = () => {
         </ul>
       </section>
 
-      <section className="flex flex-col">
+      <section className={"flex flex-col mb-[10px]"}>
         <p>
           The responsibility to find Home stay accommodation and meals at
           minimum costs, rests upon the NGO- Lengijabe Children’s Volunteering
