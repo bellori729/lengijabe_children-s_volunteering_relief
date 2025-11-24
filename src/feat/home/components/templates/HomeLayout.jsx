@@ -10,6 +10,7 @@ import HomeMissionStatement from "../molecules/HomeMissionStatement";
 import HomeAimsAndObjectives from "../molecules/HomeAimsAndObjectives";
 import HomeTheOrganizationsMainGoals from "../molecules/HomeTheOrganizationsMainGoals";
 import HomeTheNGO from "../molecules/HomeTheNGO";
+import HomeTheNGOwhite from "../molecules/HomeTheNGOwhite";
 
 const HomeLayout = () => {
   return (
@@ -24,6 +25,7 @@ const HomeLayout = () => {
       <HomeAimsAndObjectives />
       <HomeTheOrganizationsMainGoals />
       <HomeTheNGO />
+      <HomeTheNGOwhite />
     </BasicTemplate>
   );
 };
