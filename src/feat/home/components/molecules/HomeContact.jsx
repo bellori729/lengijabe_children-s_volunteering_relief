@@ -31,9 +31,9 @@ const HomeContact = () => {
                 <a href="tel:+255687737560">+255 687 737 560</a>
                 <a href="tel:+255738704097">+255 738 704 097</a>
               </div>
-              <div className="flex flex-col justify-between">
+              <div className="flex flex-col gap-[10px]">
                 <span>- WhatsApp</span>
-                <span> MASALU GIDDA</span>
+                <span> BONIFACE MASALU</span>
               </div>
             </li>
           </ul>
