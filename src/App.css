@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import "@skeletonlabs/skeleton";
+@import "@skeletonlabs/skeleton-react";
+@import "@skeletonlabs/skeleton/themes/cerberus";
 
 /* ===== tailwind custom theme ===== */
 @theme {
