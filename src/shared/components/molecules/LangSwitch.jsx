@@ -10,12 +10,13 @@ const LangSwitch = () => {
     <div
       className={classNameMerge([
         "w-full",
-        "absolute top-[30px] right-[30px]",
+        "fixed top-[30px] right-[30px]",
         "flex justify-end",
       ])}
     >
       <button
         className={classNameMerge([
+          "bg-white rounded-[999px]",
           "w-[30px] h-[30px]",
           "sm:w-[40px] sm:h-[40px]",
           "xl:w-[50px] xl:h-[50px]",
