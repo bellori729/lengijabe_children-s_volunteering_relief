@@ -113,7 +113,47 @@ const resources = {
       bottomLiTxt5:
         "Spotted hyenas and leopards infusing in the visitor’s mind unforgettable memories of Tanzania’s tourist culture of hospitality and fraternization.",
     },
+    theNGOWhite: {
+      pTxt1:
+        "The NGO - Lengijabe Children’s Volunteering Relief acts as a LINK through which:-",
+      liTxt1: "Government",
+      liTxt2: "Religious groups",
+      liTxt3: "Donor agencies",
+      liTxt4: "Financial institutions",
+      liTxt5: "Cooperative Unions",
+      liTxt6: "NGO’S",
+      pTxt2:
+        "May need to channel financial and material assistance to the voiceless, needy, poor people who will exploit chances to change and transform their material life and welfare index.",
+      pTxt3:
+        "The NGO whole heartedly will offer service to cooperate with the above stakeholders to leverage the life conditions of disadvantaged poverty stricken sections of society.",
+      pTxt4:
+        "The NGO Lengijabe Children’s Volunteering Relief has frankly speaking a broad platform for serving as a link in a range of social economic functions, Cooperation bid is extended to:-",
+      liTxt7: "Individuals",
+      liTxt8: "Schools",
+      liTxt9: "Institutions",
+      liTxt10: "Colleges",
+      liTxt11: "Universities, local and otherwise",
+      pTxt5:
+        "Employed or volunteer groups and people to engage in the following:-",
+      liTxt12: "Technical skills exchange/workshops",
+      liTxt13:
+        "To support capacity-building among members of the community in the battle against ubiquitous poverty;",
+      liTxt14:
+        "Poverty alleviation – among the under privileged, voiceless members of society including vulnerable children.",
+      pTxt6:
+        "The NGO – is poised to link with the Government to develop and facilitate implantation of National strategy for mobilizing and utilization of Resources to fight HIV/AIDS. This include research initiatives on HIV/AIDS and to foster linkages with other research institutions.",
+      pTxt7:
+        "THE NGO – has vast room for linkage with all stakeholders, in the promotion and exchange of ideas, experiences and knowledge in:-",
+      liTxt15: "Cultural Heritage",
+      liTxt16:
+        "Global cultural tourism to streamline the processes for developing cultural Heritage and Global Cultural Tourism.",
+      pTxt8:
+        "These processes could advance traditional and cultural products – such as drawings, paintings, embroidery ornaments, engravings, modeling and other life aspects. A set of tools such as seminars, discussions, symposia and workshops can be employed.",
+      pTxt9:
+        " The principle focus of the NGO, on children’s health, education, environment, character molding and poverty eradication; are not the boundaries of limit in organization addresses several socio-economic concerns to synchronize efforts and resources for evolving a modern Tanzania and other vices",
+    },
   },
+
   // 프랑스어 번역 리소스
   fr: {
     common: {},
@@ -230,6 +270,45 @@ const resources = {
       bottomLiTxt4: "Des cobs des roseaux.",
       bottomLiTxt5:
         "Des hyènes tachetées et des léopards gravant dans l’esprit du visiteur des souvenirs inoubliables de la culture touristique tanzanienne d’hospitalité et de fraternité.",
+    },
+    theNGOWhite: {
+      pTxt1:
+        "L’ONG — Lengijabe Children’s Volunteering Relief — agit comme un LIEN par lequel :",
+      liTxt1: "Le gouvernement",
+      liTxt2: "Groupes religieux",
+      liTxt3: "Agences donatrices",
+      liTxt4: "Institutions financières",
+      liTxt5: "Unions coopératives",
+      liTxt6: "ONG",
+      pTxt2:
+        "Peuvent être amenés à acheminer une aide financière et matérielle vers les personnes sans voix et démunies, qui saisiront ces opportunités pour améliorer et transformer leur condition et leur niveau de bien-être.",
+      pTxt3:
+        "L’ONG se tient prête, de tout cœur, à coopérer avec les parties prenantes susmentionnées afin d’améliorer les conditions de vie des franges défavorisées de la société frappées par la pauvreté.",
+      pTxt4:
+        "L’ONG Lengijabe Children’s Volunteering Relief dispose, à vrai dire, d’une large plateforme pour servir de relais dans un éventail de fonctions socio-économiques ; l’offre de coopération s’adresse à :",
+      liTxt7: "Particuliers",
+      liTxt8: "Écoles",
+      liTxt9: "Institutions",
+      liTxt10: "Collèges",
+      liTxt11: "Universités, locales ou autres",
+      pTxt5:
+        "Les salariés et les groupes de bénévoles sont invités à s’engager dans les actions suivantes :",
+      liTxt12: "Échanges de compétences techniques / ateliers",
+      liTxt13:
+        "Soutenir le renforcement des capacités au sein des communautés dans la lutte contre la pauvreté omniprésente ;",
+      liTxt14:
+        "Réduction de la pauvreté — auprès des membres défavorisés et sans voix de la société, y compris les enfants vulnérables.",
+      pTxt6:
+        "L’ONG est prête à collaborer avec le gouvernement pour élaborer et faciliter la mise en œuvre de la stratégie nationale de mobilisation et d’utilisation des ressources pour lutter contre le VIH/sida. Cela inclut des initiatives de recherche sur le VIH/sida et le renforcement des liens avec d’autres institutions de recherche.",
+      pTxt7:
+        "L’ONG dispose d’un large espace de collaboration avec toutes les parties prenantes pour promouvoir et échanger des idées, des expériences et des connaissances dans les domaines suivants :",
+      liTxt15: "Patrimoine culturel",
+      liTxt16:
+        "Tourisme culturel mondial, afin de rationaliser les processus de développement du patrimoine culturel et du tourisme culturel à l’échelle mondiale.",
+      pTxt8:
+        "Ces processus peuvent valoriser des produits traditionnels et culturels — tels que dessins, peintures, ornements brodés, gravures, modelage et autres formes d’expression. On pourra recourir à des outils tels que des séminaires, des discussions, des colloques et des ateliers.",
+      pTxt9:
+        "L’axe principal de l’ONG — la santé et l’éducation des enfants, l’environnement, la formation du caractère et l’éradication de la pauvreté — ne constitue pas une limite : l’organisation traite également plusieurs enjeux socio-économiques afin de synchroniser les efforts et les ressources en vue de l’émergence d’une Tanzanie moderne et de la lutte contre d’autres fléaux.",
     },
   },
 };
