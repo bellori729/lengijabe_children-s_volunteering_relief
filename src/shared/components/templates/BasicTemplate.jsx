@@ -1,4 +1,5 @@
 import classNameMerge from "../../../utils/classNameMerge";
+import LangSwitch from "../molecules/LangSwitch";
 
 const BasicTemplate = ({ className, style, children }) => {
   return (
@@ -39,6 +40,7 @@ const BasicTemplate = ({ className, style, children }) => {
           "pointer-events-none",
         ])}
       />
+      <LangSwitch />
       {children}
     </div>
   );
