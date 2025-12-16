@@ -1,17 +1,20 @@
+import { useTranslation } from "react-i18next";
 import classNameMerge from "../../../../utils/classNameMerge";
 import HomeContentsTitle from "../atoms/HomeContentsTitle";
 import HomeContentsContainer from "../organisms/HomeContentsContainer";
 
 const HomeContact = () => {
+  const { t } = useTranslation("contact");
+
   return (
     <HomeContentsContainer>
       <section className={"flex flex-col gap-[20px] mb-[20px]"}>
         <HomeContentsTitle
           className={classNameMerge(["font-bold text-center"])}
         >
-          LENGIJABE CHILDREN’S VOLUNTEERING RELIEF
+          {t("title1")}
           <br />
-          (LECHIVORE)
+          {t("title2")}
         </HomeContentsTitle>
         <div className={classNameMerge(["flex flex-col items-center"])}>
           <ul>
@@ -23,7 +26,7 @@ const HomeContact = () => {
               </a>
             </li>
             <li className="flex">
-              <div>Cell Phone: </div>
+              <div>{t("cellPhone")}</div>
               <div className="px-[10px] flex flex-col items-center gap-[10px]">
                 <a href="tel:+255755186387">+255 755 186 387</a>
                 <a href="tel:+255684186387">+255 684 186 387</a>
