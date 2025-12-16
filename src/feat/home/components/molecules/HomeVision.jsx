@@ -1,14 +1,14 @@
+import { useTranslation } from "react-i18next";
 import HomeContentsTitle from "../atoms/HomeContentsTitle";
 import HomeContentsContainer from "../organisms/HomeContentsContainer";
 
 const HomeVision = () => {
+  const { t } = useTranslation("vision");
+
   return (
     <HomeContentsContainer>
-      <HomeContentsTitle>Vision</HomeContentsTitle>
-      <p>
-        A world of equal opportunities, where vulnerable children and youth are
-        holistically empowered.
-      </p>
+      <HomeContentsTitle>{t("title")}</HomeContentsTitle>
+      <p>{t("pTxt")}</p>
     </HomeContentsContainer>
   );
 };

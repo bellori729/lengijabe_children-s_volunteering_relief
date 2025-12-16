@@ -3,6 +3,7 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 const resources = {
+  // 영어 번역 리소스
   en: {
     common: {},
     title: {
@@ -35,16 +36,46 @@ const resources = {
       liTxt3:
         "They even fail to pay for their medical treatment and school fees. Disrupted marriages on account of excessive alcoholism and the HIV/AIDS pandemic also result in parental neglect or physical and psychological abuse which force children to leave their homes.",
     },
+    streetLife: {
+      title: "Street Life",
+      pTxt: "Once living in the streets, children face harsh life, struggling to feed and clothe themselves, suffering harassment and sexual abuse. They are forced to beg and commit petty crimes, as well as drug abuse.",
+    },
+    vision: {
+      title: "Vision",
+      pTxt: "A world of equal opportunities, where vulnerable children and youth are holistically empowered.",
+    },
+    missionStatement: {
+      title: "Mission statement",
+      pTxt: "Lengijabe Children’s Volunteering Relief is committed to protecting and empowering orphans and street children and youth through the provision of basic needs, education, services and training. To impart community awareness, to engage in advocacy, networking, research and capacity building.",
+    },
+    aimsAndObjectives: {
+      title: "AIMS AND OBJECTIVES",
+      pTxt: "The Organization tries to find for the children a lasting alternative to street life by undertaking the following:-",
+      liTxt1:
+        "Providing for the children’s basic needs, shelter, food, clothing, Medicare and counseling, while preparing each one of them to join his or her family or guardians.",
+      liTxt2:
+        "Enabling children to gain access to education, training and skills to make them self-reliant.",
+      liTxt3:
+        "Carrying out family reunification of children where and when it is necessary.",
+      liTxt4:
+        "Preparing the children for reintegration into the mainstream society by providing them with the ability to start small income generation projects.",
+    },
   },
+  // 프랑스어 번역 리소스
   fr: {
     common: {},
+    // title: {
+    //   title1: "LENGIJABE ENFANTS",
+    //   title2: "BÉNÉVOLE SECOURS",
+    //   title3: "(LECHIVORE)",
+    // },
     title: {
-      title1: "LENGIJABE ENFANTS",
-      title2: "BÉNÉVOLE SECOURS",
+      title1: "LENGIJABE CHILDREN'S",
+      title2: "VOLUNTEERING RELIEF",
       title3: "(LECHIVORE)",
     },
     intro: {
-      title: "Secours bénévole pour les enfants Lengijabe",
+      title: "Lengijabe Children’s Volunteering Relief",
       liTxt1: "Les orphelins défavorisés, les enfants de la rue.",
       liTxt2:
         "Pour fournir des soins, de l'éducation, de la parentalité, du toilettage un caractère positif, une vision habitudes, orientation, inspiration et valeurs morales appropriées, culture et normes progressistes de la vie moderne en société.",
@@ -53,13 +84,13 @@ const resources = {
     },
     foreword: {
       title: "PRÉFACE",
-      boldText: "Secours bénévole pour les enfants Lengijabe",
+      boldText: "Lengijabe Children’s Volunteering Relief",
       paragraph1:
         "– Organisation non gouvernementale (ONG) fondée le 25 mai 2019. Les quatre fondateurs de cette entité sociale adhèrent à une stricte philosophie humanitaire pour laquelle la recherche du profit, les préjugés religieux, la pauvreté étouffante, les maladies endémiques, les clivages ethniques et la misère galopante chez les enfants et les populations sont fermement réprouvés. L’entité considère les abus envers les enfants, la faim, la déshumanisation, l’analphabétisme, la vulnérabilité, l’ignorance, la dégradation de l’environnement et le sous-développement comme des ennemis jurés qu’il faut combattre et vaincre sans relâche.",
       paragraph2:
         "L’Organisation cherche à obtenir des opportunités internes et externes, des ressources adéquates et des soutiens, puis à les mobiliser pour favoriser le développement éthique et l’éducation des enfants. Elle met en place un processus cohérent et structuré visant à aider les enfants à ouvrir les yeux et l’esprit sur leurs rôles à venir dans la société, afin qu’ils apprécient les valeurs d’une bonne conduite morale, de la discipline et du travail, ainsi que l’adoption de comportements de prévention du VIH/sida, l’abandon des habitudes immorales, de l’oisiveté, de la délinquance et de tout ce qui nuit au développement du caractère.",
       paragraph3:
-        "Secours bénévole pour les enfants Lengijabe vise à répondre aux besoins urgents de tous les enfants victimes qui sont orphelins, enfants des rues, en situation de handicap, défavorisés ou confrontés à d’autres formes de vulnérabilité.",
+        "Lengijabe Children’s Volunteering Relief vise à répondre aux besoins urgents de tous les enfants victimes qui sont orphelins, enfants des rues, en situation de handicap, défavorisés ou confrontés à d’autres formes de vulnérabilité.",
     },
     whyDoChildrenLiveOnTheStreets: {
       title: "Pourquoi des enfants vivent-ils dans la rue?",
@@ -69,6 +100,30 @@ const resources = {
         "Leurs parents n’ont pas les moyens de les nourrir ni de les vêtir.",
       liTxt3:
         "Ils ne parviennent même pas à payer leurs soins médicaux et leurs frais de scolarité. Les mariages brisés dus à l’alcoolisme excessif et à la pandémie de VIH/sida entraînent également la négligence parentale ou des maltraitances physiques et psychologiques, ce qui pousse les enfants à quitter leur foyer.",
+    },
+    streetLife: {
+      title: "La vie dans la rue",
+      pTxt: "Une fois livrés à la rue, les enfants affrontent une vie rude : ils peinent à se nourrir et à se vêtir et subissent le harcèlement ainsi que des violences sexuelles. Ils sont contraints de mendier, de commettre de petits délits et de consommer des drogues.",
+    },
+    vision: {
+      title: "Vision",
+      pTxt: "Un monde d’égalité des chances, où les enfants et les jeunes vulnérables sont pleinement autonomisés sur tous les plans.",
+    },
+    missionStatement: {
+      title: "Énoncé de mission",
+      pTxt: "Lengijabe Children’s Volunteering Relief s’engage à protéger et à autonomiser les orphelins ainsi que les enfants et les jeunes en situation de rue, en leur fournissant les besoins essentiels, l’éducation, des services et des formations. L’organisation œuvre également à sensibiliser les communautés, à mener des actions de plaidoyer, à développer des réseaux, à conduire des recherches et à renforcer les capacités.",
+    },
+    aimsAndObjectives: {
+      title: "BUTS ET OBJECTIFS",
+      pTxt: "L’Organisation s’efforce d’offrir aux enfants une alternative durable à la vie dans la rue en mettant en œuvre les actions suivantes :",
+      liTxt1:
+        "Assurer les besoins essentiels des enfants — hébergement, nourriture, vêtements, soins de santé et accompagnement — tout en préparant chacun d’eux à rejoindre sa famille ou ses tuteurs.",
+      liTxt2:
+        "Permettre aux enfants d’accéder à l’éducation, à des formations et à des compétences les rendant autonomes.",
+      liTxt3:
+        "Procéder, lorsque nécessaire, à la réunification familiale des enfants.",
+      liTxt4:
+        "Préparer les enfants à leur réintégration dans la société en leur donnant la capacité de lancer de petits projets générateurs de revenus.",
     },
   },
 };

@@ -1,15 +1,13 @@
+import { useTranslation } from "react-i18next";
 import HomeContentsTitle from "../atoms/HomeContentsTitle";
 import HomeContentsContainer from "../organisms/HomeContentsContainer";
 
 const HomeStreetLife = () => {
+  const { t } = useTranslation("streetLife");
   return (
     <HomeContentsContainer>
-      <HomeContentsTitle>Street Life</HomeContentsTitle>
-      <p>
-        Once living in the streets, children face harsh life, struggling to feed
-        and clothe themselves, suffering harassment and sexual abuse. They are
-        forced to beg and commit petty crimes, as well as drug abuse.
-      </p>
+      <HomeContentsTitle>{t("title")}</HomeContentsTitle>
+      <p>{t("pTxt")}</p>
     </HomeContentsContainer>
   );
 };
