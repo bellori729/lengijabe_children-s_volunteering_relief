@@ -5,9 +5,34 @@ import LanguageDetector from "i18next-browser-languagedetector";
 const resources = {
   en: {
     common: {},
+    title: {
+      title1: "LENGIJABE CHILDREN'S",
+      title2: "VOLUNTEERING RELIEF",
+      title3: "(LECHIVORE)",
+    },
+    intro: {
+      title: "Lengijabe Children's Volunteering Relief",
+      liTxt1: "Targeting: The orphans, underprivileged, street children",
+      liTxt2:
+        "To provide care, education, parenting, grooming positive character, vision, habits, orientation, inspiration and appropriate moral - values, culture, and progressive norms in modern life in society.",
+      liTxt3: "Vindicating multi-value efforts to coax material welfare.",
+    },
   },
-  ko: {
+  fr: {
     common: {},
+    title: {
+      title1: "LENGIJABE ENFANTS",
+      title2: "BÉNÉVOLE SECOURS",
+      title3: "(LECHIVORE)",
+    },
+    intro: {
+      title: "Secours bénévole pour les enfants Lengijabe",
+      liTxt1: "Les orphelins défavorisés, les enfants de la rue.",
+      liTxt2:
+        "Pour fournir des soins, de l'éducation, de la parentalité, du toilettage un caractère positif, une vision habitudes, orientation, inspiration et valeurs morales appropriées, culture et normes progressistes de la vie moderne en société.",
+      liTxt3:
+        "Justifier les efforts multi-valeurs pour amadouer le bien-être matériel.",
+    },
   },
 };
 
@@ -47,7 +72,7 @@ void i18n
     fallbackLng: "en", // 감지 실패/미지원 언어일 때
     supportedLngs: ["en", "fr"],
     resources,
-    ns: ["common"], // 사용할 네임스페이스
+    ns: ["common", "intro"], // 사용할 네임스페이스
     defaultNS: "common", // 기본 네임스페이스
 
     // 언어 코드 정리

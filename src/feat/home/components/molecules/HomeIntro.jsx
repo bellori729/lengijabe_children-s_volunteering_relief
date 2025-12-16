@@ -1,21 +1,21 @@
+import { useTranslation } from "react-i18next";
 import { mediumTextBold } from "../../../../shared/constants/fontStyle";
 import classNameMerge from "../../../../utils/classNameMerge";
 import HomeContentsContainer from "../organisms/HomeContentsContainer";
 
 const HomeIntro = () => {
+  const { t } = useTranslation("intro");
+
+  const title = t("title");
+  const liItems = [t("liTxt1"), t("liTxt2"), t("liTxt3")];
+
   return (
     <HomeContentsContainer>
-      <h3 className={classNameMerge([mediumTextBold, "mt-[20px]"])}>
-        Lengijabe Children's Volunteering Relief
-      </h3>
+      <h3 className={classNameMerge([mediumTextBold, "mt-[20px]"])}>{title}</h3>
       <ul className={classNameMerge(["list-disc list-outside pl-[15px]"])}>
-        <li>Targeting: The orphans, underprivileged, street children</li>
-        <li>
-          To provide care, education, parenting, grooming positive character,
-          vision, habits, orientation, inspiration and appropriate moral -
-          values, culture, and progressive norms in modern life in society.
-        </li>
-        <li>Vindicating multi-value efforts to coax material welfare.</li>
+        {liItems.map((item, idx) => {
+          return <li key={idx}>{item}</li>;
+        })}
       </ul>
     </HomeContentsContainer>
   );
