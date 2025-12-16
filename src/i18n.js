@@ -152,6 +152,12 @@ const resources = {
       pTxt9:
         " The principle focus of the NGO, on children’s health, education, environment, character molding and poverty eradication; are not the boundaries of limit in organization addresses several socio-economic concerns to synchronize efforts and resources for evolving a modern Tanzania and other vices",
     },
+    officeLocation: {
+      title1: "Office - location: Kisongo - Waya,",
+      title2: "Arusha - Dodoma road, 22 kms from Arusha City",
+      altTxt:
+        "Map showing the office location of Lengijabe Children's Volunteering Relief in Kisongo-Waya, Arusha-Dodoma road, 22 kms from Arusha City.",
+    },
   },
 
   // 프랑스어 번역 리소스
@@ -309,6 +315,12 @@ const resources = {
         "Ces processus peuvent valoriser des produits traditionnels et culturels — tels que dessins, peintures, ornements brodés, gravures, modelage et autres formes d’expression. On pourra recourir à des outils tels que des séminaires, des discussions, des colloques et des ateliers.",
       pTxt9:
         "L’axe principal de l’ONG — la santé et l’éducation des enfants, l’environnement, la formation du caractère et l’éradication de la pauvreté — ne constitue pas une limite : l’organisation traite également plusieurs enjeux socio-économiques afin de synchroniser les efforts et les ressources en vue de l’émergence d’une Tanzanie moderne et de la lutte contre d’autres fléaux.",
+    },
+    officeLocation: {
+      title1: "Bureau — localisation : Kisongo - Waya,",
+      title2: "Route Arusha–Dodoma, à 22 km de la ville d’Arusha",
+      altTxt:
+        "Carte montrant l’emplacement du bureau de Lengijabe Children’s Volunteering Relief à Kisongo-Waya, sur la route Arusha–Dodoma, à 22 km de la ville d’Arusha.",
     },
   },
 };
