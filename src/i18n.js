@@ -27,6 +27,14 @@ const resources = {
       paragraph3:
         "The Lengijabe Children’s Volunteering Relief aims at addressing the urgent needs of all children who have fallen victim and acquired the pathetic status of orphans, street children, impairment, underprivileged and other vulnerabilities.",
     },
+    whyDoChildrenLiveOnTheStreets: {
+      title: "Why do Children live on the streets?",
+      pTxt: "Poverty is the main factor that drives children to the streets in reach of a better life.",
+      liTxt1: "80% of street children come from low income families",
+      liTxt2: "The parents cannot afford to feed them and clothe them",
+      liTxt3:
+        "They even fail to pay for their medical treatment and school fees. Disrupted marriages on account of excessive alcoholism and the HIV/AIDS pandemic also result in parental neglect or physical and psychological abuse which force children to leave their homes.",
+    },
   },
   fr: {
     common: {},
@@ -52,6 +60,15 @@ const resources = {
         "L’Organisation cherche à obtenir des opportunités internes et externes, des ressources adéquates et des soutiens, puis à les mobiliser pour favoriser le développement éthique et l’éducation des enfants. Elle met en place un processus cohérent et structuré visant à aider les enfants à ouvrir les yeux et l’esprit sur leurs rôles à venir dans la société, afin qu’ils apprécient les valeurs d’une bonne conduite morale, de la discipline et du travail, ainsi que l’adoption de comportements de prévention du VIH/sida, l’abandon des habitudes immorales, de l’oisiveté, de la délinquance et de tout ce qui nuit au développement du caractère.",
       paragraph3:
         "Secours bénévole pour les enfants Lengijabe vise à répondre aux besoins urgents de tous les enfants victimes qui sont orphelins, enfants des rues, en situation de handicap, défavorisés ou confrontés à d’autres formes de vulnérabilité.",
+    },
+    whyDoChildrenLiveOnTheStreets: {
+      title: "Pourquoi des enfants vivent-ils dans la rue?",
+      pTxt: "La pauvreté est le principal facteur qui pousse les enfants vers la rue, à la recherche d’une vie meilleure.",
+      liTxt1: "80% des enfants des rues viennent de familles à faible revenu.",
+      liTxt2:
+        "Leurs parents n’ont pas les moyens de les nourrir ni de les vêtir.",
+      liTxt3:
+        "Ils ne parviennent même pas à payer leurs soins médicaux et leurs frais de scolarité. Les mariages brisés dus à l’alcoolisme excessif et à la pandémie de VIH/sida entraînent également la négligence parentale ou des maltraitances physiques et psychologiques, ce qui pousse les enfants à quitter leur foyer.",
     },
   },
 };

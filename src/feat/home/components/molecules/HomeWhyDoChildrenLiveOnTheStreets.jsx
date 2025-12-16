@@ -1,26 +1,18 @@
+import { useTranslation } from "react-i18next";
 import classNameMerge from "../../../../utils/classNameMerge";
 import HomeContentsTitle from "../atoms/HomeContentsTitle";
 import HomeContentsContainer from "../organisms/HomeContentsContainer";
 
 const HomeWhyDoChildrenLiveOnTheStreets = () => {
+  const { t } = useTranslation("whyDoChildrenLiveOnTheStreets");
   return (
     <HomeContentsContainer>
-      <HomeContentsTitle>
-        Why do Children live on the streets?
-      </HomeContentsTitle>
-      <p>
-        Poverty is the main factor that drives children to the streets in reach
-        of a better life.
-      </p>
+      <HomeContentsTitle>{t("title")}</HomeContentsTitle>
+      <p>{t("pTxt")}</p>
       <ul className={classNameMerge(["list-disc list-outside pl-[15px]"])}>
-        <li>80% of street children come from low income families</li>
-        <li>The parents cannot afford to feed them and clothe them</li>
-        <li>
-          They even fail to pay for their medical treatment and school fees.
-          Disrupted marriages on account of excessive alcoholism and the
-          HIV/AIDS pandemic also result in parental neglect or physical and
-          psychological abuse which force children to leave their homes.
-        </li>
+        <li>{t("liTxt1")}</li>
+        <li>{t("liTxt2")}</li>
+        <li>{t("liTxt3")}</li>
       </ul>
     </HomeContentsContainer>
   );
