@@ -17,6 +17,16 @@ const resources = {
         "To provide care, education, parenting, grooming positive character, vision, habits, orientation, inspiration and appropriate moral - values, culture, and progressive norms in modern life in society.",
       liTxt3: "Vindicating multi-value efforts to coax material welfare.",
     },
+    foreword: {
+      title: "FOREWORD",
+      boldText: "Lengijabe Children's Volunteering Relief",
+      paragraph1:
+        "– Is a NON-Governmental Organization (NGO) founded on 25th May, 2019. The four Founders of this social entity adhere to a strict humanitarian philosophy in which profit making, Religious biases, suffocating poverty, rampant diseases, ethnicity galloping squalor among children and people are irreversibly repugnant. The entity views child- abuses, hunger, dehumanization, illiteracy, vulnerability, ignorance and environment deterioration, underdevelopment as arch-enemies that must incessantly be challenged and vanquished.",
+      paragraph2:
+        "The Organization seeks to get both internal and external opportunities, vindictive resources, promoters and mobilize them to facilitate upright growth and education of the children. A well linked process of growing the children to open their eyes and minds towards their unfolding roles in society. To enable them appreciate the values of good moral behavior, discipline, hard work, and abstinence from HIV/AIDS, immoral habits, indolence, banditry and all trashes that destroy character building.",
+      paragraph3:
+        "The Lengijabe Children’s Volunteering Relief aims at addressing the urgent needs of all children who have fallen victim and acquired the pathetic status of orphans, street children, impairment, underprivileged and other vulnerabilities.",
+    },
   },
   fr: {
     common: {},
@@ -32,6 +42,16 @@ const resources = {
         "Pour fournir des soins, de l'éducation, de la parentalité, du toilettage un caractère positif, une vision habitudes, orientation, inspiration et valeurs morales appropriées, culture et normes progressistes de la vie moderne en société.",
       liTxt3:
         "Justifier les efforts multi-valeurs pour amadouer le bien-être matériel.",
+    },
+    foreword: {
+      title: "PRÉFACE",
+      boldText: "Secours bénévole pour les enfants Lengijabe",
+      paragraph1:
+        "– Organisation non gouvernementale (ONG) fondée le 25 mai 2019. Les quatre fondateurs de cette entité sociale adhèrent à une stricte philosophie humanitaire pour laquelle la recherche du profit, les préjugés religieux, la pauvreté étouffante, les maladies endémiques, les clivages ethniques et la misère galopante chez les enfants et les populations sont fermement réprouvés. L’entité considère les abus envers les enfants, la faim, la déshumanisation, l’analphabétisme, la vulnérabilité, l’ignorance, la dégradation de l’environnement et le sous-développement comme des ennemis jurés qu’il faut combattre et vaincre sans relâche.",
+      paragraph2:
+        "L’Organisation cherche à obtenir des opportunités internes et externes, des ressources adéquates et des soutiens, puis à les mobiliser pour favoriser le développement éthique et l’éducation des enfants. Elle met en place un processus cohérent et structuré visant à aider les enfants à ouvrir les yeux et l’esprit sur leurs rôles à venir dans la société, afin qu’ils apprécient les valeurs d’une bonne conduite morale, de la discipline et du travail, ainsi que l’adoption de comportements de prévention du VIH/sida, l’abandon des habitudes immorales, de l’oisiveté, de la délinquance et de tout ce qui nuit au développement du caractère.",
+      paragraph3:
+        "Secours bénévole pour les enfants Lengijabe vise à répondre aux besoins urgents de tous les enfants victimes qui sont orphelins, enfants des rues, en situation de handicap, défavorisés ou confrontés à d’autres formes de vulnérabilité.",
     },
   },
 };

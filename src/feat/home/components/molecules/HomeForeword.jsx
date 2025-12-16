@@ -1,41 +1,22 @@
+import { useTranslation } from "react-i18next";
 import { mediumTextBold } from "../../../../shared/constants/fontStyle";
 import classNameMerge from "../../../../utils/classNameMerge";
 import HomeContentsContainer from "../organisms/HomeContentsContainer";
 
 const HomeForeword = () => {
+  const { t } = useTranslation("foreword");
+
   return (
     <HomeContentsContainer className={"gap-[10px]"}>
       <h2 className={classNameMerge([mediumTextBold, "mt-[10px] text-center"])}>
-        FOREWORD
+        {t("title")}
       </h2>
       <p>
-        <span className={classNameMerge(["font-bold"])}>
-          Lengijabe Children's Volunteering Relief
-        </span>
-        – Is an NGO–NON-Governmental Organization founded on 25th May, 2019. The
-        four Founders of this social entity adhere to a strict humanitarian
-        philosophy in which profit making, Religious biases, suffocating
-        poverty, rampant diseases, ethnicity galloping squalor among children
-        and people are irreversibly repugnant. The entity views child- abuses,
-        hunger, dehumanization, illiteracy, vulnerability, ignorance and
-        environment deterioration, underdevelopment as arch-enemies that must
-        incessantly be challenged and vanquished.
+        <span className={classNameMerge(["font-bold"])}>{t("boldText")}</span>
+        {t("paragraph1")}
       </p>
-      <p>
-        The Organization seeks to get both internal and external opportunities,
-        vindictive resources, promoters and mobilize them to facilitate upright
-        growth and education of the children. A well linked process of growing
-        the children to open their eyes and minds towards their unfolding roles
-        in society. To enable them appreciate the values of good moral behavior,
-        discipline, hard work, and abstinence from HIV/AIDS, immoral habits,
-        indolence, banditry and all trashes that destroy character building.
-      </p>
-      <p>
-        The Lengijabe Children’s Volunteering Relief aims at addressing the
-        urgent needs of all children who have fallen victim and acquired the
-        pathetic status of orphans, street children, impairment, underprivileged
-        and other vulnerabilities.
-      </p>
+      <p>{t("paragraph2")}</p>
+      <p>{t("paragraph3")}</p>
     </HomeContentsContainer>
   );
 };
