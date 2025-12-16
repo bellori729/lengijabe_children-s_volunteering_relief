@@ -60,6 +60,31 @@ const resources = {
       liTxt4:
         "Preparing the children for reintegration into the mainstream society by providing them with the ability to start small income generation projects.",
     },
+    theOrganizationsMainGoals: {
+      title: "THE ORGANIZATION'S MAIN GOALS",
+      liTxt1:
+        "Provision of basic needs in the form of food, clothing, shelter, medical services and accommodation to orphans and street children and youths.",
+      liTxt2:
+        "Provision of formal and informal education, as well as vocational training to children and youths.",
+      liTxt3:
+        "Socializing street children and youths to make them fit in society as responsible citizens.",
+      liTxt4:
+        "Promote community awareness and carrying out advocacy on matters related to street children including children rights",
+      liTxt5:
+        "Networking with other organizations and institutions for sharing information and experience, as well as collaborating on interventions that are geared to improve performance.",
+      liTxt6:
+        "Enhancing the institutional capacity of the organization for effective and efficient advancement of its mission.",
+      liTxt7:
+        "Apart from basic needs, children and youth are given access to opportunities for learning life-skills; engage in sports, gardening, art work, craft and religion- they are provided on individualized holistic basis.",
+      liTxt8:
+        "The disadvantaged children are sensitized to stay away from HIV/AIDS pandemic, while orphans access accommodation, street children enjoy opportunities to education and training.",
+      altTxt1:
+        "Children from the Lengijabe organisation smiling in front of a classroom.",
+      captionTxt1: "Children of Lengijabe Organisation",
+      altTxt2:
+        "A group of volunteers from the Netherlands posing on the steps.",
+      captionTxt2: "A group of volunteers from the Netherlands",
+    },
   },
   // 프랑스어 번역 리소스
   fr: {
@@ -124,6 +149,30 @@ const resources = {
         "Procéder, lorsque nécessaire, à la réunification familiale des enfants.",
       liTxt4:
         "Préparer les enfants à leur réintégration dans la société en leur donnant la capacité de lancer de petits projets générateurs de revenus.",
+    },
+    theOrganizationsMainGoals: {
+      title: "OBJECTIFS PRINCIPAUX DE L’ORGANISATION",
+      liTxt1:
+        "Fournir les besoins essentiels — nourriture, vêtements, abri, services médicaux et hébergement — aux orphelins ainsi qu’aux enfants et aux jeunes en situation de rue.",
+      liTxt2:
+        "Assurer une éducation formelle et non formelle, ainsi que des formations professionnelles, aux enfants et aux jeunes.",
+      liTxt3:
+        "Favoriser la socialisation des enfants et des jeunes des rues afin de les intégrer dans la société en tant que citoyens responsables.",
+      liTxt4:
+        "Promouvoir la sensibilisation des communautés et mener des actions de plaidoyer sur les questions liées aux enfants des rues, notamment les droits de l’enfant.",
+      liTxt5:
+        "Créer des réseaux avec d’autres organisations et institutions pour partager informations et expériences, ainsi que collaborer à des interventions visant à améliorer l’impact.",
+      liTxt6:
+        "Renforcer les capacités institutionnelles de l’organisation pour faire progresser sa mission de manière efficace et efficiente.",
+      liTxt7:
+        "Au-delà des besoins essentiels, offrir aux enfants et aux jeunes des opportunités d’acquérir des compétences de vie et de s’engager dans le sport, le jardinage, les arts, l’artisanat et la vie religieuse — dans une approche individualisée et holistique.",
+      liTxt8:
+        "Sensibiliser les enfants défavorisés à la prévention du VIH/sida ; offrir un hébergement aux orphelins ; permettre aux enfants des rues de bénéficier d’opportunités d’éducation et de formation.",
+      altTxt1:
+        "Des enfants de l’organisation Lengijabe souriant devant une salle de classe.",
+      captionTxt1: "Enfants de l’organisation Lengijabe",
+      altTxt2: "Un groupe de bénévoles des Pays-Bas posant sur des marches.",
+      captionTxt2: "Un groupe de bénévoles des Pays-Bas",
     },
   },
 };
