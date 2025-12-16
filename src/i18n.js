@@ -85,6 +85,34 @@ const resources = {
         "A group of volunteers from the Netherlands posing on the steps.",
       captionTxt2: "A group of volunteers from the Netherlands",
     },
+    theNGO: {
+      title:
+        "THE NGO- LENGIJABE CHILDREN'S VOLUNTEERING RELIEF'S ROLE AS A MULTILINKAGES ENTITY",
+      topPTxt1:
+        "The NGO has extended functional roles to create advantages and tourist values and girdle the Tanzania society towards material progress: A Mosaic of linkages can be viewed as follows:-",
+      topPTxt2: "The NGO’S deep hospitality allows it to welcome:-",
+      topLiTxt1: "Individual volunteers",
+      topLiTxt2: "Volunteer groups",
+      topLiTxt3: "Students",
+      topLiTxt4: "Religious groups",
+      topLiTxt5: "Academicians",
+      topPTxt3:
+        "Where the NGO arranges brief stay in Home stay – Lodges or Hotels and prepares exciting and enchanting visits to Tourist paradise such as Katavi, Mkomazi National Parks where the visitor will be thrilled to his bones, in the sight of magnificent landscapes flooded with amazing herds of buffaloes, elephants, vast lion prides, hippos, rhino, pangolin and crocodiles mingle in their natural habitats, to create for the visitor an enchanting wonder world.",
+      altTxt1:
+        "Giraffe bending to drink at a muddy waterhole in Katavi National Park.",
+      captionTxt1: "A white giraffe from Katavi National Park",
+      altTxt2:
+        "Four large wading birds flying in formation over Katavi National Park.",
+      captionTxt2: "Some of the 400 species of birds at Katavi National Park",
+      bottomPTxt1:
+        "The responsibility to find Home stay accommodation and meals at minimum costs, rests upon the NGO- Lengijabe Children’s Volunteering Relief to enable visitors scoop maximum leisure in the wonder-tourist-destinations of Tanzania, such as those provided by Katavi – where the visitor will plunge into endless excitement and joy at the sight of:-",
+      bottomLiTxt1: "White giraffes prancing with pride.",
+      bottomLiTxt2: "Chanting swarms of birds – 400 species",
+      bottomLiTxt3: "Elegant zebras",
+      bottomLiTxt4: "Water bucks",
+      bottomLiTxt5:
+        "Spotted hyenas and leopards infusing in the visitor’s mind unforgettable memories of Tanzania’s tourist culture of hospitality and fraternization.",
+    },
   },
   // 프랑스어 번역 리소스
   fr: {
@@ -173,6 +201,35 @@ const resources = {
       captionTxt1: "Enfants de l’organisation Lengijabe",
       altTxt2: "Un groupe de bénévoles des Pays-Bas posant sur des marches.",
       captionTxt2: "Un groupe de bénévoles des Pays-Bas",
+    },
+    theNGO: {
+      title:
+        "RÔLE DE L’ONG — LENGIJABE CHILDREN’S VOLUNTEERING RELIEF — EN TANT QU’ENTITÉ À INTERCONNEXIONS MULTIPLES",
+      topPTxt1:
+        "L’ONG a élargi ses fonctions afin de créer des atouts et des valeurs touristiques et d’accompagner la société tanzanienne vers le progrès matériel ; une mosaïque de liaisons peut être présentée comme suit :",
+      topPTxt2: "La profonde hospitalité de l’ONG lui permet d’accueillir :",
+      topLiTxt1: "Des bénévoles individuels",
+      topLiTxt2: "Des groupes de bénévoles",
+      topLiTxt3: "Des étudiants",
+      topLiTxt4: "Des groupes religieux",
+      topLiTxt5: "Des universitaires",
+      topPTxt3:
+        "L’ONG organise des séjours de courte durée en hébergement chez l’habitant, en lodges ou en hôtels, et prépare des visites captivantes dans des paradis touristiques tels que les parcs nationaux de Katavi et de Mkomazi, où le visiteur sera émerveillé par des paysages grandioses peuplés d’impressionnants troupeaux de buffles et d’éléphants, de grands groupes de lions, d’hippopotames, de rhinocéros, de pangolins et de crocodiles évoluant dans leurs habitats naturels — un véritable monde de merveilles.",
+      altTxt1:
+        "Une girafe se penchant pour boire dans un point d’eau boueux au parc national de Katavi.",
+      captionTxt1: "Une girafe blanche du parc national de Katavi",
+      altTxt2:
+        "Quatre grands échassiers volant en formation au-dessus du parc national de Katavi.",
+      captionTxt2:
+        "Quelques-unes des 400 espèces d’oiseaux du parc national de Katavi",
+      bottomPTxt1:
+        "Il incombe à l’ONG Lengijabe Children’s Volunteering Relief de trouver des hébergements chez l’habitant et des repas à coût minimal, afin de permettre aux visiteurs de profiter au maximum des destinations touristiques merveilleuses de Tanzanie, telles que Katavi — où ils se plongeront dans une joie et une excitation sans fin à la vue de :",
+      bottomLiTxt1: "Des girafes blanches caracolant fièrement.",
+      bottomLiTxt2: "Des nuées d’oiseaux chantants — 400 espèces.",
+      bottomLiTxt3: "Des zèbres élégants.",
+      bottomLiTxt4: "Des cobs des roseaux.",
+      bottomLiTxt5:
+        "Des hyènes tachetées et des léopards gravant dans l’esprit du visiteur des souvenirs inoubliables de la culture touristique tanzanienne d’hospitalité et de fraternité.",
     },
   },
 };
